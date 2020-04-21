@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cd7a337-91cd-4d4c-9852-2d93e7d0d9ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Go Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/99.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/AvgCalc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/Go_Code.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/HashMapExample.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/MapTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/PointerA.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/RangeTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/SliceArrayDiff.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/SliceTest1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/SliceTest2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/StructTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/YangHui.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/YangHui2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/YangHui4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/Yanghui3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/array_test2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/calc_area.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/calc_indy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/callback.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/closePkg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/error-one.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/error-two.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/filename.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/hello-world.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/hello.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/hello.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/if_exp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/interface-1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/interface-2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/interface-3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/interface-test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/loop_control.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/loop_go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/max_num.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/method.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/moreArray.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/prime_num.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/recursionTest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/sqrtOne.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/switchPtr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/test_one.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/test_two.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Own/type_chg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/pkg/windows_amd64/github.com/easierway/concurrent_map.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch10-inter/EmptyInter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch10-inter/error_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch10-inter/inter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch10-inter/interface_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch10-inter/recover_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch11/Series/Fibonacci.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch11/Use/Fib_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch11/concurrent_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch12/counter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch12/csp_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch2/Fib/Fibonacci_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch2/First_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch2/const/Const_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch3/Type_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch4/condition_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch4/if_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch4/switch_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch5/Array_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch6/map_factory_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch6/map_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch7/string_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch8/func2_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch8/func_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch9-OO/struct_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/github.com/easierway/concurrent_map" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/Use/Fib_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="e#13#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/Series/Fibonacci.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/concurrent_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/groutine_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/counter_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/csp_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="e#14#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>IPhone</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/go-Jike" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/interface-test.go" />
+        <option value="$PROJECT_DIR$/interface-1.go" />
+        <option value="$PROJECT_DIR$/sqrtOne.go" />
+        <option value="$PROJECT_DIR$/interface-2.go" />
+        <option value="$PROJECT_DIR$/interface-3.go" />
+        <option value="$PROJECT_DIR$/error-one.go" />
+        <option value="$PROJECT_DIR$/error-two.go" />
+        <option value="$PROJECT_DIR$/hello-world.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch2/First_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch2/Fibonacci.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch3/type_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch3/Type_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch2/const/Const_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch4/if_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch4/condition_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch4/switch_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch5/Array_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch6/map_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch6/map_factory_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch7/string_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch8/func2_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch9-OO/struct_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch8/func_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch10-inter/inter_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch10-inter/interface_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch10-inter/EmptyInter_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch10-inter/error_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch10-inter/recover_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch11/Series/Fibonacci.go" />
+        <option value="$PROJECT_DIR$/go-Jike/ch11/Use/Fib_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch11/Series/Fibonacci.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch11/Use/Fib_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch11/concurrent_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch12/groutine_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch12/counter_trst.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch12/counter_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch12/csp_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1890" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectId" id="1QbA5pnuDxBTHodB129XPe2n65b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch12" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Go Code\go-Jike\ch2\Fib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.csp_test.go">
+    <configuration name="TestAsynServices in ch12" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch12" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch12" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestAsynServices$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounterSafe in ch12" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch12" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch12" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounterSafe$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCounterWaitGroup in ch12" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch12" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch12" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCounterWaitGroup$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCsp in ch12" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch12" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ch12" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestCsp$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csp_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch12" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/go-Jike/src/ch12/csp_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.csp_test.go" />
+        <item itemvalue="Go Test.TestAsynServices in ch12" />
+        <item itemvalue="Go Test.TestCsp in ch12" />
+        <item itemvalue="Go Test.TestCounterWaitGroup in ch12" />
+        <item itemvalue="Go Test.TestCounterSafe in ch12" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestCounterSafe_in_ch12 - 2020.04.21 at 13h 02m 26s.xml">
+      <configuration name="TestCounterSafe in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCounterWaitGroup_in_ch12 - 2020.04.21 at 13h 11m 03s.xml">
+      <configuration name="TestCounterWaitGroup in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestCsp_in_ch12 - 2020.04.21 at 13h 23m 46s.xml">
+      <configuration name="TestCsp in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAsynServices_in_ch12 - 2020.04.21 at 13h 31m 20s.xml">
+      <configuration name="TestAsynServices in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAsynServices_in_ch12 - 2020.04.21 at 13h 31m 40s.xml">
+      <configuration name="TestAsynServices in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAsynServices_in_ch12 - 2020.04.21 at 13h 33m 17s.xml">
+      <configuration name="TestAsynServices in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAsynServices_in_ch12 - 2020.04.21 at 13h 37m 06s.xml">
+      <configuration name="TestAsynServices in ch12" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="csp_test_go - 2020.04.21 at 13h 37m 36s.xml">
+      <configuration name="csp_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="csp_test_go - 2020.04.21 at 13h 37m 49s.xml">
+      <configuration name="csp_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="csp_test_go - 2020.04.21 at 13h 37m 59s.xml">
+      <configuration name="csp_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30881163" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32781458" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25662252" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2724333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34271523" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go-Jike/ch8/func_test.go</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go-Jike/ch8/func_test.go</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/go-Jike/src/ch12/counter_test.go</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="arrayC" language="go" />
+        <watch expression="arrayB[i]" language="go" />
+        <watch expression="len(arrayB[i])" language="go" />
+        <watch expression="a" language="go" />
+        <watch expression="b " language="go" />
+      </configuration>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="n" language="go" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>n</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/array_test2.go" />
+    <entry file="file://$PROJECT_DIR$/interface-test.go" />
+    <entry file="file://$PROJECT_DIR$/interface-1.go" />
+    <entry file="file://$PROJECT_DIR$/interface-2.go" />
+    <entry file="file://$PROJECT_DIR$/sqrtOne.go" />
+    <entry file="file://$PROJECT_DIR$/../GO/src/fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4256">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface-3.go" />
+    <entry file="file://$PROJECT_DIR$/error-one.go" />
+    <entry file="file://$PROJECT_DIR$/error-two.go" />
+    <entry file="file://$PROJECT_DIR$/hello-world.go" />
+    <entry file="file://$PROJECT_DIR$/99.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/const/Const_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/if_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/condition_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/switch_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch3/Type_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/First_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch5/Array_test.go" />
+    <entry file="file://$PROJECT_DIR$/../GO/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4736">
+          <caret line="301" selection-start-line="301" selection-end-line="301" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GO/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21392">
+          <caret line="1337" selection-start-line="1337" selection-end-line="1337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch6/map_factory_test.go" />
+    <entry file="file://$PROJECT_DIR$/../GO/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="868" selection-start-line="868" selection-end-line="868" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch9-OO/struct_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch8/func2_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch7/string_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch8/func_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/inter_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/interface_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/EmptyInter_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch6/map_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/error_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch11/Series/Fibonacci.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/recover_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/ch11/Use/Fib_test.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/Use/Fib_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#13#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/Series/Fibonacci.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch11/concurrent_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/counter_trst.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/groutine_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/counter_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/csp_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
