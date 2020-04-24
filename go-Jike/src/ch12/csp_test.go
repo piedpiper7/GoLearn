@@ -9,7 +9,7 @@ import (
 //communication sequensetinal process
 
 func service() string {
-	time.Sleep(time.Millisecond*50)
+	time.Sleep(time.Millisecond*150)
 	return "Done task1"
 }
 
@@ -38,4 +38,13 @@ func TestAsynServices(t *testing.T){
 	otherService()
 	t.Log(<-retCh)
 	time.Sleep(time.Second*1)
+}
+
+func TestServices(t *testing.T){
+	select {
+	case retCh := <-AsynServices():
+		t.Log(retCh)
+	case <-time.After(time.Millisecond*100):
+		t.Error("timeout")
+	}
 }
