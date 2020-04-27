@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd7a337-91cd-4d4c-9852-2d93e7d0d9ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/bdd_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/benchmark_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/deepEqual_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/reflect_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/reflect_up_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch15/unsafe_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/pipeline_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/split_filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/sum_filter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch16/toInt_filter.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,46 +20,61 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/bdd_test.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/split_filter.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="208">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#17#38#0" expanded="true" />
+                <element signature="e#14#45#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_test.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/sum_filter.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="316">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_up_test.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/pipeline_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="252">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
-                <element signature="e#14#46#0" expanded="true" />
+                <element signature="e#14#73#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/deepEqual_test.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/github.com/stretchr/testify/assert/assertions.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="333" column="5" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/filter.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -94,13 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interface-2.go" />
-        <option value="$PROJECT_DIR$/interface-3.go" />
-        <option value="$PROJECT_DIR$/error-one.go" />
-        <option value="$PROJECT_DIR$/error-two.go" />
-        <option value="$PROJECT_DIR$/hello-world.go" />
-        <option value="$PROJECT_DIR$/go-Jike/ch2/First_test.go" />
-        <option value="$PROJECT_DIR$/go-Jike/ch2/Fibonacci.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch3/type_test.go" />
@@ -145,6 +154,13 @@
         <option value="$PROJECT_DIR$/go-Jike/src/ch15/bdd_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/src/ch15/deepEqual_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/src/ch15/reflect_up_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch15/unsafe_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/filter.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/PipeFilter_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/toInt_filter.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/sum_filter.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch16/pipeline_test.go" />
       </list>
     </option>
   </component>
@@ -185,7 +201,28 @@
               <item name="Go Code" type="462c0819:PsiDirectoryNode" />
               <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch15" type="462c0819:PsiDirectoryNode" />
+              <item name="ch13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch14" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ch16" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Go Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Go Code" type="462c0819:PsiDirectoryNode" />
+              <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,8 +260,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestFillNameAndAge in ch15">
-    <configuration name="TestDeepEqual in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestPipeLine in ch16">
+    <configuration name="TestAtomic in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
       <working_directory value="$PROJECT_DIR$/go-Jike/src/ch15" />
       <framework value="gotest" />
@@ -232,7 +269,7 @@
       <package value="ch15" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDeepEqual$" />
+      <pattern value="^TestAtomic$" />
       <method v="2" />
     </configuration>
     <configuration name="TestFillNameAndAge in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -246,18 +283,18 @@
       <pattern value="^TestFillNameAndAge$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInvokeByName in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPipeLine in ch16" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
-      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch15" />
+      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch16" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ch15" />
+      <package value="ch16" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInvokeByName$" />
+      <pattern value="^TestPipeLine$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTypeAndValue in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSafeSlice in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
       <working_directory value="$PROJECT_DIR$/go-Jike/src/ch15" />
       <framework value="gotest" />
@@ -265,10 +302,10 @@
       <package value="ch15" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTypeAndValue$" />
+      <pattern value="^TestSafeSlice$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTypeCheck in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUnsafe in ch15" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
       <working_directory value="$PROJECT_DIR$/go-Jike/src/ch15" />
       <framework value="gotest" />
@@ -276,49 +313,49 @@
       <package value="ch15" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTypeCheck$" />
+      <pattern value="^TestUnsafe$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestPipeLine in ch16" />
+        <item itemvalue="Go Test.TestAtomic in ch15" />
+        <item itemvalue="Go Test.TestSafeSlice in ch15" />
+        <item itemvalue="Go Test.TestUnsafe in ch15" />
         <item itemvalue="Go Test.TestFillNameAndAge in ch15" />
-        <item itemvalue="Go Test.TestDeepEqual in ch15" />
-        <item itemvalue="Go Test.TestInvokeByName in ch15" />
-        <item itemvalue="Go Test.TestTypeAndValue in ch15" />
-        <item itemvalue="Go Test.TestTypeCheck in ch15" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestTypeCheck_in_ch15 - 2020.04.26 at 13h 23m 14s.xml">
-      <configuration name="TestTypeCheck in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestUnsafe_in_ch15 - 2020.04.27 at 12h 36m 02s.xml">
+      <configuration name="TestUnsafe in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTypeAndValue_in_ch15 - 2020.04.26 at 13h 25m 43s.xml">
-      <configuration name="TestTypeAndValue in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestUnsafe_in_ch15 - 2020.04.27 at 12h 36m 15s.xml">
+      <configuration name="TestUnsafe in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInvokeByName_in_ch15 - 2020.04.26 at 13h 37m 58s.xml">
-      <configuration name="TestInvokeByName in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestUnsafe_in_ch15 - 2020.04.27 at 12h 38m 28s.xml">
+      <configuration name="TestUnsafe in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInvokeByName_in_ch15 - 2020.04.26 at 13h 45m 53s.xml">
-      <configuration name="TestInvokeByName in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestSafeSlice_in_ch15 - 2020.04.27 at 12h 43m 04s.xml">
+      <configuration name="TestSafeSlice in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInvokeByName_in_ch15 - 2020.04.26 at 21h 09m 28s.xml">
-      <configuration name="TestInvokeByName in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAtomic_in_ch15 - 2020.04.27 at 13h 03m 07s.xml">
+      <configuration name="TestAtomic in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestInvokeByName_in_ch15 - 2020.04.26 at 21h 12m 36s.xml">
-      <configuration name="TestInvokeByName in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAtomic_in_ch15 - 2020.04.27 at 13h 06m 02s.xml">
+      <configuration name="TestAtomic in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDeepEqual_in_ch15 - 2020.04.26 at 21h 22m 44s.xml">
-      <configuration name="TestDeepEqual in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestAtomic_in_ch15 - 2020.04.27 at 13h 06m 26s.xml">
+      <configuration name="TestAtomic in ch15" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestDeepEqual_in_ch15 - 2020.04.26 at 21h 25m 15s.xml">
-      <configuration name="TestDeepEqual in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPipeLine_in_ch16 - 2020.04.27 at 23h 13m 44s.xml">
+      <configuration name="TestPipeLine in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFillNameAndAge_in_ch15 - 2020.04.26 at 21h 59m 08s.xml">
-      <configuration name="TestFillNameAndAge in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPipeLine_in_ch16 - 2020.04.27 at 23h 14m 13s.xml">
+      <configuration name="TestPipeLine in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestFillNameAndAge_in_ch15 - 2020.04.26 at 21h 59m 34s.xml">
-      <configuration name="TestFillNameAndAge in ch15" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestPipeLine_in_ch16 - 2020.04.27 at 23h 15m 07s.xml">
+      <configuration name="TestPipeLine in ch16" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -334,12 +371,12 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17138238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17623281" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34933776" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3178808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +384,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294702" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25662252" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25662252" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,15 +459,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello-world.go" />
-    <entry file="file://$PROJECT_DIR$/99.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/Fib/Fibonacci_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/const/Const_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/if_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/condition_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch4/switch_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch3/Type_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch2/First_test.go" />
     <entry file="file://$PROJECT_DIR$/go-Jike/ch5/Array_test.go" />
     <entry file="file://$PROJECT_DIR$/../GO/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,41 +588,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/objPool_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch14/Squares.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/sync_pool_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch12/groutine_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/create_objPool.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,9 +602,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/bdd_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../GO/src/sync/waitgroup.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/toInt_filter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/sum_filter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/split_filter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch14/Squares_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="272">
           <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
@@ -615,39 +653,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/bdd_test.go">
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch14/Squares.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#17#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="32">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/deepEqual_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="64">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_up_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/sync_pool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/objPool_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch13/create_objPool.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_up_test.go">
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/unsafe_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="700">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch15/reflect_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/filter.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/github.com/stretchr/testify/assert/assertions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="333" column="5" selection-start-line="333" selection-start-column="5" selection-end-line="333" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/pipeline_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
-            <element signature="e#14#46#0" expanded="true" />
+            <element signature="e#14#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
