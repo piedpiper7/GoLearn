@@ -4,6 +4,8 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/davecgh/go-spew" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/easierway/concurrent_map" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/josharian/intern" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/mailru/easyjson" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/pmezard/go-difflib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/smartystreets/goconvey" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/stretchr/testify" vcs="Git" />
