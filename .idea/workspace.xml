@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cd7a337-91cd-4d4c-9852-2d93e7d0d9ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch17-MicroKernel/agent.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch18-JSON/json_struct_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch18-JSON/struct_def.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch19_http/hello_http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch19-tool/prof.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch19_http/http_router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go-Jike/src/ch19_http/oriented_router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,49 +17,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/hello_http.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+            <state relative-caret-position="224">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch17-MicroKernel/agent.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/http_router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="144">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON/struct_def.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/oriented_router.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON/json_struct_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
               <folding>
-                <element signature="e#19#57#0" expanded="true" />
+                <element signature="e#14#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/hello_http.go">
+        <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19-tool/prof.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="305">
+              <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+              <folding>
+                <element signature="e#19#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,10 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/go-Jike/ch4/switch_test.go" />
-        <option value="$PROJECT_DIR$/go-Jike/ch5/Array_test.go" />
-        <option value="$PROJECT_DIR$/go-Jike/ch6/map_test.go" />
-        <option value="$PROJECT_DIR$/go-Jike/ch6/map_factory_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch7/string_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch8/func2_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/ch9-OO/struct_test.go" />
@@ -147,6 +136,10 @@
         <option value="$PROJECT_DIR$/go-Jike/src/ch18-JSON/struct_def.go" />
         <option value="$PROJECT_DIR$/go-Jike/src/ch18-JSON/json_struct_test.go" />
         <option value="$PROJECT_DIR$/go-Jike/src/ch19_http/hello_http.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch19_http/router_test.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch19_http/http_router.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch19_http/oriented_router.go" />
+        <option value="$PROJECT_DIR$/go-Jike/src/ch19-tool/prof.go" />
       </list>
     </option>
   </component>
@@ -163,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,12 +179,13 @@
               <item name="Go Code" type="462c0819:PsiDirectoryNode" />
               <item name="go-Jike" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch19_http" type="462c0819:PsiDirectoryNode" />
+              <item name="ch19-tool" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello_http.go">
+  <component name="RunManager" selected="Go Build.go build prof.go">
     <configuration name="go build hello_http.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -235,15 +228,28 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkEasyJson in ch18-JSON" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build http_router.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go Code" />
-      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch18-JSON" />
-      <framework value="gobench" />
-      <kind value="PACKAGE" />
-      <package value="ch18-JSON" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-Jike/src/ch19_http/http_router.go" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkEasyJson$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build oriented_router.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-Jike/src/ch19_http/oriented_router.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build prof.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go Code" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/go-Jike/src/ch19-tool/prof.go" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <configuration name="BenchmarkEmbeddedJson in ch18-JSON" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -257,35 +263,13 @@
       <pattern value="^BenchmarkEmbeddedJson$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestEasyJson in ch18-JSON" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Go Code" />
-      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch18-JSON" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch18-JSON" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestEasyJson$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestEmbeddedJson in ch18-JSON" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Go Code" />
-      <working_directory value="$PROJECT_DIR$/go-Jike/src/ch18-JSON" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ch18-JSON" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestEmbeddedJson$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build prof.go" />
+        <item itemvalue="Go Build.go build oriented_router.go" />
+        <item itemvalue="Go Build.go build http_router.go" />
         <item itemvalue="Go Build.go build hello_http.go" />
         <item itemvalue="Go Test.BenchmarkEmbeddedJson in ch18-JSON" />
-        <item itemvalue="Go Test.TestEasyJson in ch18-JSON" />
-        <item itemvalue="Go Test.BenchmarkEasyJson in ch18-JSON" />
-        <item itemvalue="Go Test.TestEmbeddedJson in ch18-JSON" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +318,12 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18108326" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18674211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3178808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3178808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +331,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3294702" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25662252" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25662252" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,10 +406,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch8/func_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/inter_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/interface_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/EmptyInter_test.go" />
     <entry file="file://$PROJECT_DIR$/go-Jike/ch6/map_test.go" />
     <entry file="file://$PROJECT_DIR$/go-Jike/ch10-inter/error_test.go" />
     <entry file="file://$PROJECT_DIR$/go-Jike/ch11/Series/Fibonacci.go" />
@@ -681,11 +661,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch17-MicroKernel/_test.go" />
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON.go">
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON.go" />
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON/struct_def_easyjson.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
+        <state relative-caret-position="-1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch16/straight_pipeline.go">
@@ -709,11 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON/struct_def_easyjson.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1440" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch18-JSON/json_struct_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -724,10 +698,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/router_test.go" />
     <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/hello_http.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="224">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/http_router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19_http/oriented_router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-Jike/src/ch19-tool/prof.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+          <folding>
+            <element signature="e#19#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
