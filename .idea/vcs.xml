@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/davecgh/go-spew" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/easierway/concurrent_map" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/fatih/color" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/go-sql-driver/mysql" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/jessevdk/go-flags" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/josharian/intern" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/go-Jike/src/github.com/julienschmidt/httprouter" vcs="Git" />
