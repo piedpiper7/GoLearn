@@ -5,6 +5,21 @@ import (
 	"net/http"
 )
 
+type middleWareHandler struct {
+	r *httprouter.Router
+}
+
+func NewMiddleWareHandler(r *httprouter.Router) http.Handler {
+	m := middleWareHandler{}
+	m.r = r
+	return m
+}
+
+func (m middleWareHandler) ServeHTTP(w http.ResponseWriter, r *http.Request){
+	vaildateUserSession(r)
+	m.r.ServeHTTP(w, r)
+}
+
 func RegisterHandlers() *httprouter.Router{
 	router := httprouter.New()
 	router.POST("/user", CreateUser)
@@ -14,7 +29,8 @@ func RegisterHandlers() *httprouter.Router{
 
 func main(){
 	r := RegisterHandlers()
-	http.ListenAndServe(":8000", r)
+	middleHandler := NewMiddleWareHandler(r)
+	http.ListenAndServe(":8000", middleHandler)
 }
 
 //ListenAndServe用于注册，会注册r的handlers，每个handlers都是用不同的groutine(CreateUser/Login)
